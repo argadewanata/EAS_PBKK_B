@@ -1,0 +1,29 @@
+/vendor
+/node_modules
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage
+
+# Laravel 5 & 6 specific
+bootstrap/cache/
+.env.*.php
+.env.backup
+.phpunit.result.cache
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
+
+# IDE / code editor files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.log
+.DS_Store
+.phpstorm.meta.php
