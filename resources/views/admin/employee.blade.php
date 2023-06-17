@@ -6,23 +6,16 @@
 @section('breadcrumb')
 <div class="col-sm-6">
     <h4 class="page-title text-left">Employees</h4>
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-        <li class="breadcrumb-item"><a href="javascript:void(0);">Employees</a></li>
-        <li class="breadcrumb-item"><a href="javascript:void(0);">Employees List</a></li>
-
-    </ol>
 </div>
 @endsection
 @section('button')
-<a href="#addnew" data-toggle="modal" class="btn btn-success btn-sm btn-flat"><i class="mdi mdi-plus mr-2"></i>Add New Employee</a>
+<a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="mdi mdi-plus mr-2"></i>Add New Employee</a>
 
 
 @endsection
 
 @section('content')
 @include('includes.flash')
-
 
 <div class="row">
     <div class="col-12">
@@ -31,7 +24,7 @@
                 <!--   -->
                 <table id="datatable-buttons" class="table table-striped table-hover table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
 
-                    <thead class="thead-dark">
+                    <thead class="thead-light">
                         <tr>
                             <th data-priority="1">ID</th>
                             <th data-priority="2">Name</th>
@@ -58,9 +51,8 @@
                             </td>
                             <td>{{$employee->created_at}}</td>
                             <td>
-
-                                <a href="#edit{{$employee->name}}" data-toggle="modal" class="btn btn-success btn-sm edit btn-flat"><i class='fa fa-edit'></i></a>
-                                <a href="#delete{{$employee->name}}" data-toggle="modal" class="btn btn-danger btn-sm delete btn-flat"><i class='fa fa-trash'></i></a>
+                                <a href="#edit{{$employee->name}}" data-toggle="modal" class="btn btn-success btn-sm edit btn-flat">Edit</a>
+                                <a href="#delete{{$employee->name}}" data-toggle="modal" class="btn btn-danger btn-sm delete btn-flat">Delete</a>
                             </td>
                         </tr>
                         @endforeach
@@ -70,7 +62,6 @@
             </div>
         </div>
     </div>
-    <!--   -->
 </div>
 </div> <!-- end col -->
 </div> <!-- end row -->
