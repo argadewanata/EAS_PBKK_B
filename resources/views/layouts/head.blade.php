@@ -1,9 +1,9 @@
 <!-- App favicon -->
 <link rel="shortcut icon" href="{{ URL::asset('assets/images/') }}">
-<meta name="viewport" content="width=device-width, initial-scale=1">      
+<meta name="viewport" content="width=device-width, initial-scale=1">
 @yield('css')
-<!-- Log on to codeastro.com for more projects! -->
- <!-- App css -->
+<!--   -->
+<!-- App css -->
 <link href="{{ URL::asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ URL::asset('assets/css/metismenu.min.css') }}" rel="stylesheet" type="text/css">
 <link href="{{ URL::asset('assets/css/icons.css') }}" rel="stylesheet" type="text/css" />

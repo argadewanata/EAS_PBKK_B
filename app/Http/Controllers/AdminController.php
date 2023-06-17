@@ -11,8 +11,6 @@ use App\Models\Schedule;
 
 class AdminController extends Controller
 {
-
- 
     public function index()
     {
         //Dashboard statistics 
@@ -21,16 +19,15 @@ class AdminController extends Controller
         $ontimeEmp = count(Attendance::whereAttendance_date(date("Y-m-d"))->whereStatus('1')->get());
         $latetimeEmp = count(Attendance::whereAttendance_date(date("Y-m-d"))->whereStatus('0')->get());
         $totalSchedule =  count(Schedule::all());
-            
-        if($AllAttendance > 0){
-                $percentageOntime = str_split(($ontimeEmp/ $AllAttendance)*100, 4)[0];
-            }else {
-                $percentageOntime = 0 ;
-            }
-        
+
+        if ($AllAttendance > 0) {
+            $percentageOntime = str_split(($ontimeEmp / $AllAttendance) * 100, 4)[0];
+        } else {
+            $percentageOntime = 0;
+        }
+
         $data = [$totalEmp, $ontimeEmp, $latetimeEmp, $percentageOntime, $totalSchedule];
-        
+
         return view('admin.index')->with(['data' => $data]);
     }
-
 }

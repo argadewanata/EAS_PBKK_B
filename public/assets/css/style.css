@@ -677,7 +677,7 @@ dt {
 }
 
 .topbar .topbar-left {
-  background: #333547;
+  background: #013880;
   float: left;
   text-align: center;
   height: 70px;
@@ -726,7 +726,7 @@ dt {
 .side-menu {
   width: 240px;
   z-index: 10;
-  background: #333547;
+  background: #013880;
   bottom: 0;
   margin-top: 0;
   padding-bottom: 30px;
@@ -817,7 +817,7 @@ dt {
   font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #b4bfcc;
+  color: white;
 }
 
 .enlarged .slimScrollDiv {

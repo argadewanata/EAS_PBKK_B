@@ -2,18 +2,18 @@
 <div class="modal fade" id="addnew">
     <div class="modal-dialog">
         <div class="modal-content">
-			<!-- Log on to codeastro.com for more projects! -->
-        
+            <!--   -->
+
             <div class="modal-header">
-            <h5 class="modal-title"><b>Add New Employee</b></h5>
+                <h5 class="modal-title"><b>Add New Employee</b></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span></button>
 
             </div>
 
-            
+
             <div class="modal-body">
-			<!-- Log on to codeastro.com for more projects! -->
+                <!--   -->
 
                 <div class="card-body text-left">
 
@@ -21,17 +21,15 @@
                         @csrf
                         <div class="form-group">
                             <label for="name">Name <i>{without any space}</i></label>
-                            <input type="text" class="form-control" placeholder="Enter a Employee name [hyphen accepted]" id="name" name="name"
-                                required />
+                            <input type="text" class="form-control" placeholder="Enter a Employee name [hyphen accepted]" id="name" name="name" required />
                         </div>
                         <div class="form-group">
                             <label for="position">Position <i>{without any space}</i></label>
-                            <input type="text" class="form-control" placeholder="Enter Employee's Position [hyphen accepted]" id="position" name="position"
-                                required />
+                            <input type="text" class="form-control" placeholder="Enter Employee's Position [hyphen accepted]" id="position" name="position" required />
                         </div>
 
-                        
-                        <div class="form-group"><!-- Log on to codeastro.com for more projects! -->
+
+                        <div class="form-group"><!--   -->
                             <label for="email" class="col-sm-3 control-label">Email</label>
 
 
@@ -67,7 +65,7 @@
 
                 </div>
             </div>
-			<!-- Log on to codeastro.com for more projects! -->
+            <!--   -->
 
         </div>
 
