@@ -14,13 +14,13 @@
 @section('content')
 <div class="row">
     <div class="col-xl-3 col-md-6">
-        <div class="card bg-secondary text-white">
+        <div class="card bg-primary text-white">
             <div class="card-body">
                 <div class="mb-4">
                     <div class="float-left mini-stat-img mr-4">
                         <span class="ti-id-badge" style="font-size: 30px"></span>
                     </div>
-                    <h5 class="font-16 text-uppercase mt-0 text-white-50">Total <br> Employees</h5>
+                    <h5 class="font-16 text-uppercase mt-0 text-white-100">Total <br> Employees</h5>
                 </div>
                 <h1 class="font-500 float-right">{{$data[0]}} </h1>
                 <span class="ti-user float-left" style="font-size: 71px"></span>
@@ -29,13 +29,13 @@
     </div>
 
     <div class="col-xl-3 col-md-6">
-        <div class="card bg-secondary text-white">
+        <div class="card bg-primary text-white">
             <div class="card-body">
                 <div class="mb-4">
                     <div class="float-left mini-stat-img mr-4">
                         <i class=" ti-check-box " style="font-size: 30px"></i>
                     </div>
-                    <h5 class="font-16 text-uppercase mt-0 text-white-50">On Time <br> Today</h5>
+                    <h5 class="font-16 text-uppercase mt-0 text-white-100">On Time <br> Today</h5>
 
 
                 </div>
@@ -44,22 +44,22 @@
                 <span class="peity-donut float-left" data-peity='{ "fill": ["#02a499", "#f2f2f2"], "innerRadius": 28, "radius": 32 }' data-width="72" data-height="72">{{$data[1]}}/{{count($data)}}</span>
                 <!-- <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                                <a href="#" class="text-white-100"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
         
-                                            <p class="text-white-50 mb-0">More info</p>
+                                            <p class="text-white-100 mb-0">More info</p>
                                         </div> -->
             </div>
         </div>
     </div>
     <div class="col-xl-3 col-md-6">
-        <div class="card bg-secondary text-white">
+        <div class="card bg-primary text-white">
             <div class="card-body">
                 <div class="mb-4">
                     <div class="float-left mini-stat-img mr-4">
                         <i class="ti-alert" style="font-size: 30px"></i>
                     </div>
-                    <h5 class="font-16 text-uppercase mt-0 text-white-50">Late <br> Today</h5>
+                    <h5 class="font-16 text-uppercase mt-0 text-white-100">Late <br> Today</h5>
 
 
                 </div>
@@ -68,22 +68,22 @@
                 <span class="peity-donut float-left" data-peity='{ "fill": ["#02a499", "#f2f2f2"], "innerRadius": 28, "radius": 32 }' data-width="72" data-height="72">{{$data[2]}}/{{count($data)}}</span>
                 <!-- <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                                <a href="#" class="text-white-100"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
         
-                                            <p class="text-white-50 mb-0">More info</p>
+                                            <p class="text-white-100 mb-0">More info</p>
                                         </div> -->
             </div>
         </div>
     </div>
     <div class="col-xl-3 col-md-6">
-        <div class="card bg-secondary text-white">
+        <div class="card bg-primary text-white">
             <div class="card-body">
                 <div class="mb-4">
                     <div class="float-left mini-stat-img mr-4">
                         <i class="ti-alarm-clock" style="font-size: 30px"></i>
                     </div>
-                    <h6 class="font-16 text-uppercase mt-0 text-white-50">On Time <br> Percentage</h6>
+                    <h6 class="font-16 text-uppercase mt-0 text-white-100">On Time <br> Percentage</h6>
 
 
                 </div>
@@ -91,10 +91,10 @@
                 <span class="peity-donut float-left" data-peity='{ "fill": ["#02a499", "#f2f2f2"], "innerRadius": 28, "radius": 32 }' data-width="72" data-height="72">{{$data[3]}}/{{count($data)}}</span>
                 <!-- <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                                <a href="#" class="text-white-100"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
         
-                                            <p class="text-white-50 mb-0">More info</p>
+                                            <p class="text-white-100 mb-0">More info</p>
                                         </div> -->
             </div>
         </div>
@@ -107,21 +107,21 @@
 <!-- new row -->
 <div class="row">
     <div class="col-xl-3 col-md-6">
-        <div class="card bg-secondary text-white">
+        <div class="card bg-primary text-white">
             <div class="card-body">
                 <div class="mb-4">
                     <div class="float-left mini-stat-img mr-4">
                         <span class="ti-panel" style="font-size: 30px"></span>
                     </div>
-                    <h5 class="font-16 text-uppercase mt-0 text-white-50">Availabe <br> Schedules</h5>
+                    <h5 class="font-16 text-uppercase mt-0 text-white-100">Availabe <br> Schedules</h5>
                 </div>
                 <h1 class="font-500 float-right">{{$data[4]}} </h1>
                 <span class="ti-time float-left" style="font-size: 71px"></span>
                 <!-- <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                                <a href="#" class="text-white-100"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
-                                            <p class="text-white-50 mb-0">More info</p>
+                                            <p class="text-white-100 mb-0">More info</p>
                                         </div> -->
             </div>
         </div>
