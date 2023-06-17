@@ -8,17 +8,10 @@
 @section('breadcrumb')
 <div class="col-sm-6">
     <h4 class="page-title text-left">Schedules</h4>
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="javascript:void(0);">Home</a></li>
-        <li class="breadcrumb-item"><a href="javascript:void(0);">Schedule</a></li>
-        <!--   -->
-
-
-    </ol>
 </div>
 @endsection
 @section('button')
-<a href="#addnew" data-toggle="modal" class="btn btn-success btn-sm btn-flat"><i class="mdi mdi-plus mr-2"></i>Add New Schedule</a>
+<a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="mdi mdi-plus mr-2"></i>Add New Schedule</a>
 
 
 @endsection
@@ -36,7 +29,7 @@
                     <div class="table-responsive mb-0" data-pattern="priority-columns">
                         <table id="datatable-buttons" class="table table-hover table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
 
-                            <thead class="thead-dark">
+                            <thead class="thead-light">
                                 <tr>
                                     <th data-priority="1">#</th>
                                     <th data-priority="2">Shift</th>
@@ -56,9 +49,8 @@
                                     <td> {{ $schedule->time_out }} </td>
                                     <td>
 
-                                        <a href="#edit{{ $schedule->slug }}" data-toggle="modal" class="btn btn-success btn-sm edit btn-flat"><i class='fa fa-edit'></i>
-                                        </a>
-                                        <a href="#delete{{ $schedule->slug }}" data-toggle="modal" class="btn btn-danger btn-sm delete btn-flat"><i class='fa fa-trash'></i></a>
+                                        <a href="#edit{{ $schedule->slug }}" data-toggle="modal" class="btn btn-success btn-sm edit btn-flat">Edit</a>
+                                        <a href="#delete{{ $schedule->slug }}" data-toggle="modal" class="btn btn-danger btn-sm delete btn-flat">Delete</a>
 
                                     </td>
                                 </tr>
