@@ -1,52 +1,50 @@
+.full-height {
+    height: 100vh;
+}
 
-    
-        .full-height {
-            height: 100vh;
-        }
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 0 25px;
+    text-align: center;
+}
 
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
-        .position-ref {
-            position: relative;
-        }
+.position-ref {
+    position: relative;
+}
 
-        .top-right {
-            position: absolute;
-            right: 10px;
-            top: 18px;
-        }
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
 
-        .modal-content {
-            text-align: center;
-        }
+.modal-content {
+    text-align: center;
+}
 
-        .title {
-            font-size: 84px;
-        }
+.title {
+    font-size: 84px;
 
-        .links>a {
-            color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
+}
 
-        .m-b-md {
-            margin-bottom: 30px;
-        }
+.links>a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
-        .clockStyle {
-            font-size: 120px;
-            margin: 0 150px;
-            padding: 10px;
-            color: #ffffff;
-            width: 900px;
-            text-align: center;
-        }
+.m-b-md {
+    margin-bottom: 30px;
+}
